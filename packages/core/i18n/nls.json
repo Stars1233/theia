@@ -1,7 +1,9 @@
 {
+  "aiConfiguration:open": "Open AI Configuration view",
+  "aiHistory:open": "Open AI History view",
   "debug.breakpoint.editCondition": "Edit Condition...",
   "notebook.cell.changeToCode": "Change Cell to Code",
-  "notebook.cell.changeToMarkdown": "Change Cell to Mardown",
+  "notebook.cell.changeToMarkdown": "Change Cell to Markdown",
   "notebook.cell.insertMarkdownCellAbove": "Insert Markdown Cell Above",
   "notebook.cell.insertMarkdownCellBelow": "Insert Markdown Cell Below",
   "terminal:new:profile": "Create New Integrated Terminal from a Profile",
@@ -10,6 +12,33 @@
     "callhierarchy": {
       "noCallers": "No callers have been detected.",
       "open": "Open Call Hierarchy"
+    },
+    "collaboration": {
+      "collaborate": "Collaborate",
+      "collaboration": "Collaboration",
+      "collaborationWorkspace": "Collaboration Workspace",
+      "connected": "Connected",
+      "connectedSession": "Connected to a collaboration session",
+      "copiedInvitation": "Invitation code copied to clipboard.",
+      "copyAgain": "Copy Again",
+      "createRoom": "Create New Collaboration Session",
+      "creatingRoom": "Creating Session",
+      "end": "End Collaboration Session",
+      "endDetail": "Terminate the session, cease content sharing, and revoke access for others.",
+      "enterCode": "Enter collaboration session code",
+      "failedCreate": "Failed to create room: {0}",
+      "failedJoin": "Failed to join room: {0}",
+      "invite": "Invite Others",
+      "inviteDetail": "Copy the invitation code for sharing it with others to join the session.",
+      "joinRoom": "Join Collaboration Session",
+      "joiningRoom": "Joining Session",
+      "leave": "Leave Collaboration Session",
+      "leaveDetail": "Disconnect from the current collaboration session and close the workspace.",
+      "selectCollaboration": "Select collaboration option",
+      "sharedSession": "Shared a collaboration session",
+      "startSession": "Start or join collaboration session",
+      "userWantsToJoin": "User '{0}' wants to join the collaboration room",
+      "whatToDo": "What would you like to do with other collaborators?"
     },
     "core": {
       "about": {
@@ -362,6 +391,9 @@
       "alreadyRunning": "Hosted instance is already running.",
       "debugInstance": "Debug Instance",
       "debugMode": "Using inspect or inspect-brk for Node.js debug",
+      "debugPorts": {
+        "debugPort": "Port to use for this server's Node.js debug"
+      },
       "devHost": "Development Host",
       "failed": "Failed to run hosted plugin instance: {0}",
       "hostedPlugin": "Hosted Plugin",
@@ -469,6 +501,7 @@
     },
     "test": {
       "cancelAllTestRuns": "Cancel All Test Runs",
+      "stackFrameAt": "at",
       "testRunDefaultName": "{0} run {1}",
       "testRuns": "Test Runs"
     },

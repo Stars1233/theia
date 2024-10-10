@@ -1,4 +1,6 @@
 {
+  "aiConfiguration:open": "Aprire la vista Configurazione AI",
+  "aiHistory:open": "Aprire la vista Cronologia AI",
   "debug.breakpoint.editCondition": "Modifica della condizione...",
   "notebook.cell.changeToCode": "Cambia cella in codice",
   "notebook.cell.changeToMarkdown": "Cambiare la cella in Mardown",
@@ -10,6 +12,33 @@
     "callhierarchy": {
       "noCallers": "Non sono stati rilevati chiamanti.",
       "open": "Gerarchia delle chiamate aperte"
+    },
+    "collaboration": {
+      "collaborate": "Collaborate",
+      "collaboration": "Collaborazione",
+      "collaborationWorkspace": "Spazio di lavoro per la collaborazione",
+      "connected": "Collegato",
+      "connectedSession": "Collegato a una sessione di collaborazione",
+      "copiedInvitation": "Codice invito copiato negli appunti.",
+      "copyAgain": "Copia di nuovo",
+      "createRoom": "Creare una nuova sessione di collaborazione",
+      "creatingRoom": "Creazione di una sessione",
+      "end": "Fine della sessione di collaborazione",
+      "endDetail": "Terminare la sessione, interrompere la condivisione dei contenuti e revocare l'accesso ad altri.",
+      "enterCode": "Inserire il codice della sessione di collaborazione",
+      "failedCreate": "Impossibile creare una stanza: {0}",
+      "failedJoin": "Impossibile unirsi alla stanza: {0}",
+      "invite": "Invitare altri",
+      "inviteDetail": "Copiare il codice di invito per condividerlo con altri e partecipare alla sessione.",
+      "joinRoom": "Partecipa alla sessione di collaborazione",
+      "joiningRoom": "Sessione di adesione",
+      "leave": "Lasciare la sessione di collaborazione",
+      "leaveDetail": "Disconnettersi dalla sessione di collaborazione in corso e chiudere l'area di lavoro.",
+      "selectCollaboration": "Selezionare l'opzione di collaborazione",
+      "sharedSession": "Condivisione di una sessione di collaborazione",
+      "startSession": "Avviare o partecipare a una sessione di collaborazione",
+      "userWantsToJoin": "L'utente '{0}' vuole unirsi alla sala di collaborazione",
+      "whatToDo": "Cosa le piacerebbe fare con altri collaboratori?"
     },
     "core": {
       "about": {
@@ -362,6 +391,9 @@
       "alreadyRunning": "L'istanza ospitata è già in esecuzione.",
       "debugInstance": "Istanza di debug",
       "debugMode": "Usare inspect o inspect-brk per il debug di Node.js",
+      "debugPorts": {
+        "debugPort": "Porta da utilizzare per il debug Node.js di questo server"
+      },
       "devHost": "Sviluppo Host",
       "failed": "Impossibile eseguire l'istanza del plugin ospitato: {0}",
       "hostedPlugin": "Plugin ospitato",
@@ -469,6 +501,7 @@
     },
     "test": {
       "cancelAllTestRuns": "Annullamento di tutte le esecuzioni di test",
+      "stackFrameAt": "a",
       "testRunDefaultName": "{0} corsa {1}",
       "testRuns": "Esecuzioni di prova"
     },

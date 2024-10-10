@@ -1,4 +1,6 @@
 {
+  "aiConfiguration:open": "AI-Konfigurationsansicht öffnen",
+  "aiHistory:open": "AI-Historienansicht öffnen",
   "debug.breakpoint.editCondition": "Edit Bedingung...",
   "notebook.cell.changeToCode": "Zelle in Code ändern",
   "notebook.cell.changeToMarkdown": "Zelle in Mardown ändern",
@@ -10,6 +12,33 @@
     "callhierarchy": {
       "noCallers": "Es wurden keine Anrufer entdeckt.",
       "open": "Öffne Aufruf-Hierarchie"
+    },
+    "collaboration": {
+      "collaborate": "Zusammenarbeiten",
+      "collaboration": "Zusammenarbeit",
+      "collaborationWorkspace": "Arbeitsbereich für Zusammenarbeit",
+      "connected": "Verbunden",
+      "connectedSession": "Verbunden mit einer Sitzung zur Zusammenarbeit",
+      "copiedInvitation": "Einladungscode in die Zwischenablage kopiert.",
+      "copyAgain": "Erneut kopieren",
+      "createRoom": "Neue Collaboration-Sitzung erstellen",
+      "creatingRoom": "Sitzung erstellen",
+      "end": "Kollaborationssitzung beenden",
+      "endDetail": "Beenden Sie die Sitzung, beenden Sie die Freigabe von Inhalten und sperren Sie den Zugang für andere.",
+      "enterCode": "Enter collaboration session code",
+      "failedCreate": "Es konnte kein Raum erstellt werden: {0}",
+      "failedJoin": "Verbindung zum Raum fehlgeschlagen: {0}",
+      "invite": "Andere einladen",
+      "inviteDetail": "Kopieren Sie den Einladungscode, um ihn mit anderen zu teilen und an der Sitzung teilzunehmen.",
+      "joinRoom": "An der Collaboration-Sitzung teilnehmen",
+      "joiningRoom": "Beitrittssitzung",
+      "leave": "Kollaborationssitzung verlassen",
+      "leaveDetail": "Trennen Sie die Verbindung zur aktuellen Zusammenarbeitssitzung und schließen Sie den Arbeitsbereich.",
+      "selectCollaboration": "Wählen Sie die Option Zusammenarbeit",
+      "sharedSession": "Gemeinsame Sitzung zur Zusammenarbeit",
+      "startSession": "Zusammenarbeitssitzung starten oder beitreten",
+      "userWantsToJoin": "Benutzer '{0}' möchte dem Collaboration Room beitreten",
+      "whatToDo": "Was würden Sie gerne mit anderen Mitarbeitern machen?"
     },
     "core": {
       "about": {
@@ -362,6 +391,9 @@
       "alreadyRunning": "Die gehostete Instanz läuft bereits.",
       "debugInstance": "Debug-Instanz",
       "debugMode": "Verwendung von inspect oder inspect-brk zur Fehlersuche in Node.js",
+      "debugPorts": {
+        "debugPort": "Zu verwendender Port für das Node.js-Debugging dieses Servers"
+      },
       "devHost": "Entwicklung Host",
       "failed": "Die gehostete Plugin-Instanz konnte nicht ausgeführt werden: {0}",
       "hostedPlugin": "Gehostetes Plugin",
@@ -469,6 +501,7 @@
     },
     "test": {
       "cancelAllTestRuns": "Alle Testläufe abbrechen",
+      "stackFrameAt": "unter",
       "testRunDefaultName": "{0} laufen. {1}",
       "testRuns": "Testläufe"
     },

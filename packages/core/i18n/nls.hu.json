@@ -1,4 +1,6 @@
 {
+  "aiConfiguration:open": "AI konfigurációs nézet megnyitása",
+  "aiHistory:open": "AI előzmények nézet megnyitása",
   "debug.breakpoint.editCondition": "Szerkesztési feltétel...",
   "notebook.cell.changeToCode": "Cellát kódra váltani",
   "notebook.cell.changeToMarkdown": "Cellát átváltoztatni Mardown-ra",
@@ -10,6 +12,33 @@
     "callhierarchy": {
       "noCallers": "Nem észleltek hívókat.",
       "open": "Nyílt felhívás hierarchia"
+    },
+    "collaboration": {
+      "collaborate": "Együttműködés",
+      "collaboration": "Együttműködés",
+      "collaborationWorkspace": "Együttműködési munkaterület",
+      "connected": "Csatlakoztatva",
+      "connectedSession": "Együttműködési munkamenethez csatlakoztatva",
+      "copiedInvitation": "Meghívó kódja a vágólapra másolva.",
+      "copyAgain": "Ismétlemásolás",
+      "createRoom": "Új együttműködési munkamenet létrehozása",
+      "creatingRoom": "Munkamenet létrehozása",
+      "end": "Együttműködési ülés befejezése",
+      "endDetail": "A munkamenet megszüntetése, a tartalom megosztásának megszüntetése és a hozzáférés visszavonása mások számára.",
+      "enterCode": "Adja meg az együttműködési munkamenet kódját",
+      "failedCreate": "Nem sikerült helyet létrehozni: {0}",
+      "failedJoin": "Nem sikerült csatlakozni a szobához: {0}",
+      "invite": "Mások meghívása",
+      "inviteDetail": "Másolja ki a meghívó kódját, hogy másokkal is megoszthassa, és csatlakozhasson az üléshez.",
+      "joinRoom": "Csatlakozzon az együttműködési üléshez",
+      "joiningRoom": "Csatlakozási munkamenet",
+      "leave": "Hagyja el az együttműködési ülést",
+      "leaveDetail": "Szakítsa meg a kapcsolatot az aktuális együttműködési munkamenetből, és zárja be a munkaterületet.",
+      "selectCollaboration": "Együttműködési lehetőség kiválasztása",
+      "sharedSession": "Közös együttműködési munkamenet",
+      "startSession": "Együttműködési munkamenet indítása vagy ahhoz való csatlakozás",
+      "userWantsToJoin": "Felhasználó '{0}' csatlakozni szeretne a kollaborációs szobához",
+      "whatToDo": "Mit szeretnél csinálni más munkatársakkal?"
     },
     "core": {
       "about": {
@@ -362,6 +391,9 @@
       "alreadyRunning": "A hosztolt példány már fut.",
       "debugInstance": "Hibakeresési példány",
       "debugMode": "Az inspect vagy inspect-brk használata a Node.js hibakereséshez",
+      "debugPorts": {
+        "debugPort": "A kiszolgáló Node.js hibakereséséhez használni kívánt port"
+      },
       "devHost": "Fejlesztés Host",
       "failed": "Nem sikerült futtatni a hosztolt plugin példányt: {0}",
       "hostedPlugin": "Hostolt bővítmény",
@@ -469,6 +501,7 @@
     },
     "test": {
       "cancelAllTestRuns": "Minden tesztfuttatás törlése",
+      "stackFrameAt": "a  címen.",
       "testRunDefaultName": "{0} fuss {1}",
       "testRuns": "Tesztfutások"
     },

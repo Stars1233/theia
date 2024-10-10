@@ -1,4 +1,6 @@
 {
+  "aiConfiguration:open": "Ouvrir la vue Configuration AI",
+  "aiHistory:open": "Ouvrir la vue de l'historique de l'IA",
   "debug.breakpoint.editCondition": "Edit Condition...",
   "notebook.cell.changeToCode": "Changer la cellule en code",
   "notebook.cell.changeToMarkdown": "Changer la cellule en Mardown",
@@ -10,6 +12,33 @@
     "callhierarchy": {
       "noCallers": "Aucun appelant n'a été détecté.",
       "open": "Hiérarchie des appels ouverts"
+    },
+    "collaboration": {
+      "collaborate": "Collaborer",
+      "collaboration": "Collaboration",
+      "collaborationWorkspace": "Espace de travail collaboratif",
+      "connected": "Connecté",
+      "connectedSession": "Connecté à une session de collaboration",
+      "copiedInvitation": "Code d'invitation copié dans le presse-papiers.",
+      "copyAgain": "Copier à nouveau",
+      "createRoom": "Créer une nouvelle session de collaboration",
+      "creatingRoom": "Création d'une session",
+      "end": "Fin de la session de collaboration",
+      "endDetail": "Mettre fin à la session, cesser le partage de contenu et révoquer l'accès pour d'autres personnes.",
+      "enterCode": "Enter collaboration session code",
+      "failedCreate": "Échec de la création d'une salle : {0}",
+      "failedJoin": "N'a pas réussi à rejoindre la salle : {0}",
+      "invite": "Inviter d'autres personnes",
+      "inviteDetail": "Copiez le code d'invitation pour le partager avec d'autres personnes afin de participer à la session.",
+      "joinRoom": "Participer à une session de collaboration",
+      "joiningRoom": "Session d'adhésion",
+      "leave": "Quitter la session de collaboration",
+      "leaveDetail": "Se déconnecter de la session de collaboration en cours et fermer l'espace de travail.",
+      "selectCollaboration": "Sélectionner l'option de collaboration",
+      "sharedSession": "Partager une session de collaboration",
+      "startSession": "Démarrer ou rejoindre une session de collaboration",
+      "userWantsToJoin": "User '{0}' wants to join the collaboration room",
+      "whatToDo": "Qu'aimeriez-vous faire avec d'autres collaborateurs ?"
     },
     "core": {
       "about": {
@@ -362,6 +391,9 @@
       "alreadyRunning": "L'instance hébergée est déjà en cours d'exécution.",
       "debugInstance": "Instance de débogage",
       "debugMode": "Utilisation de inspect ou inspect-brk pour le débogage de Node.js",
+      "debugPorts": {
+        "debugPort": "Port à utiliser pour le débogage Node.js de ce serveur"
+      },
       "devHost": "Hôte de développement",
       "failed": "Échec de l'exécution de l'instance du plugin hébergé : {0}",
       "hostedPlugin": "Plugin hébergé",
@@ -469,6 +501,7 @@
     },
     "test": {
       "cancelAllTestRuns": "Annuler tous les essais",
+      "stackFrameAt": "à",
       "testRunDefaultName": "{0} courir {1}",
       "testRuns": "Essais"
     },
